@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body, button {
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container, .nav-links, .cart, .account{
+	display: flex;
+}
+
+.logo{
+	font-weight: 400;
+	margin: 5px;
+	text-decoration: none;
+	color: initial;
+}
+
+.logo-container {
+	flex: 1;
+}
+
+nav {
+	flex: 2;
+}
+
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+
+.nav-link {
+	color: #5f5f79;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.cart {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.account ion-icon {
+	color: gray;
+	font-size: 40px;
+	flex: 1;
+	justify-content: flex-end;
+}

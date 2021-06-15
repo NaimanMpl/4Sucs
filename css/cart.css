@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body, button {
+	font-family: 'Poppins', sans-serif;
+}
+
+.products-container {
+	max-width: 650px;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.products-container img {
+	width: 50px;
+}
+
+.products-container ion-icon {
+	font-size: 25px;
+	color: brown;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+.product-header {
+	width: 100%;
+	max-width: 650px;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 4px solid lightgrey;
+	margin: 0 auto;
+}
+
+.product-title {
+	width: 45%;
+	display: flex;
+}
+
+.price {
+	width: 15%;
+	display: flex;
+	align-items: center;
+	margin-left: 150px;
+}
+
+.quantity {
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+
+.total {
+	width: 20%;
+	display: flex;
+	align-items: center;
+}
+
+.product {
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+
+.basketTotalContainer {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.basketTotalTitle {
+	width: 30%;
+}
+
+.basketTotal {
+	width: 30px;
+}
+
+.reglementContainer {
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+button{
+	background: none;
+	color: #ccc;
+	width: 220px;
+	height: 50px;
+	border: 1px solid #338303;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+	color: black;
+}
+
+button:hover{
+	background: #338033;
+	cursor: pointer;
+	color: white;
+}
+
+button:hover:before{
+	transform: translateX(300px) skewX(-15deg);
+	opacity: 1;
+	transition: .7s;
+}
